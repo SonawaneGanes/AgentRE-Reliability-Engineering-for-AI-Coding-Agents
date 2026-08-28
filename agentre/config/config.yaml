@@ -1,0 +1,7 @@
+llm:
+  provider: ollama
+  model: CHANGE_ME
+  temperature: 0.1
+
+evaluation:
+  timeout_seconds: 120

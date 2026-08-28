@@ -1,0 +1,5 @@
+agents:
+  - analyst
+  - builder
+  - failure_hunter
+  - debugger
