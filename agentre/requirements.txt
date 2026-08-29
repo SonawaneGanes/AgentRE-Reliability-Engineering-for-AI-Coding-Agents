@@ -1,5 +1,10 @@
-pytest
-hypothesis
-pyyaml
-requests
-python-dotenv
+requests>=2.31.0
+python-dotenv>=1.0.0
+PyYAML>=6.0
+pytest>=8.0.0
+hypothesis>=6.90.0
+
+
+python -m pip install -r requirements.txt
+python -c "import requests, dotenv, yaml, pytest, hypothesis; print('All dependencies OK')"
+All dependencies OK
