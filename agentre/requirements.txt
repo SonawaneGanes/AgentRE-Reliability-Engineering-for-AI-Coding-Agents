@@ -4,3 +4,47 @@ PyYAML>=6.0
 pytest>=8.0.0
 hypothesis>=6.90.0
 
+AgentRE – Reliability Engineering for AI Coding Agents
+
+AgentRE is a reliability engineering framework for AI coding agents. 
+It combines code generation, execution, failure detection, debugging, 
+repair, and re-testing into a reliability loop.
+
+Tech Stack:
+- Python
+- Ollama
+- Gemma 3 4B
+- Pytest
+- Hypothesis
+- Git
+- Docker
+
+Core Workflow:
+
+AI Code Generation
+        ↓
+Code Execution
+        ↓
+Failure Detection
+        ↓
+Debugger Agent
+        ↓
+Code Repair
+        ↓
+Re-testing
+        ↓
+Verified Result
+
+Project Highlights:
+- CoderAgent
+- DebuggerAgent
+- CodeRunner
+- ReliabilityLoop
+- Ollama integration
+- Automated testing
+- 21/21 unit tests passing
+
+
+
+This project was developed as a reliability-focused system for
+evaluating and improving AI-generated code.
