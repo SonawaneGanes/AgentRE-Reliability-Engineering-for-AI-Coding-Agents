@@ -37,8 +37,7 @@ def test_timeout():
 import time
 time.sleep(5)
 """
-        assert result.error == "Execution timed out"
     )
 
     assert result.passed is False
-    
+    assert result.error == "Execution timed out"
