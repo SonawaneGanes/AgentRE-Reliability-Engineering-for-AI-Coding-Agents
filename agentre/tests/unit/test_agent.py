@@ -25,6 +25,6 @@ def test_base_agent():
     result = agent.run("test task")
 
     assert result.success is True
-    
+    assert result.output == "Completed: test task"
 
     
