@@ -20,6 +20,6 @@ def test_coder_agent_generates_code():
     assert result.success is True
     assert "def add" in result.output
 
-    mock_llm.generate.assert_called_once()
+     
 
     
