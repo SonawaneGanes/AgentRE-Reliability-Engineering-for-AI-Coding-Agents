@@ -1,4 +1,6 @@
+from unittest.mock import Mock
 
+from agentre.agents.debugger import DebuggerAgent
 
 
 def test_debugger_agent_fixes_code():
