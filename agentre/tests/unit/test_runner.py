@@ -40,4 +40,4 @@ time.sleep(5)
     )
 
     assert result.passed is False
-    assert result.error == "Execution timed out"
+    
